@@ -36,8 +36,6 @@ fun CharactersScreen(
                     is CharactersEvent.NavigateToDetails -> navController.navigate(
                         route = "characters/${event.id}"
                     )
-
-                    null -> { }
                 }
 
             }.collect()

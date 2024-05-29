@@ -66,7 +66,6 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
 
 
-
     //DATA
 
 
@@ -80,4 +79,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+
+    // Dependency not used, just here for evaluation
+    implementation(libs.retrofit)
 }

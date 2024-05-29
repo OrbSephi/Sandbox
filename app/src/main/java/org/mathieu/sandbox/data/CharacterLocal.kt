@@ -27,12 +27,12 @@ object CharacterLocal {
         ),
         Character(
             id = 3,
-            firstName = "Jordan",
-            lastName = "Emma",
+            firstName = "Luffy",
+            lastName = "Monkey.D",
             age = 22,
             episode = listOf(
-                Episode(date = "2021-03-01", name = "The Arrival"),
-                Episode(date = "2021-03-08", name = "The Journey")
+                Episode(date = "2023-12-17", name = "S20 E197 The dream of Luffy"),
+                Episode(date = "1999-10-20", name = "I'm Luffy! The man who's gonna be the king of pirates !")
             )
         )
     )
